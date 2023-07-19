@@ -8,7 +8,7 @@ import Profile from './Profile.jsx'
 import Scan from './Scan-history.jsx'
 import Login from './Login.jsx'
 import Signup from './Signup.jsx'
-import Edit from './components/edit.jsx'
+import Edit from './components/Edit.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
