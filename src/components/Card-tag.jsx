@@ -1,6 +1,6 @@
 import React from "react"
 
-import icon from '../assets/image/icon.png'
+import icon from '../assets/image/Icon.png'
 import safari from '../assets/image/safari.png'
 
 function name() {
