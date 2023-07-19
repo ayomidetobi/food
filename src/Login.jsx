@@ -36,7 +36,7 @@ function tag() {
         </div>
 
         <div className="btn">
-          <button>Resume</button>
+          <button><Link to={"/"}>Resume</Link></button>
         </div>
 
       </form>

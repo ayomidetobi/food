@@ -21,13 +21,17 @@
 
 .card-btn {
   background-color: #0A063F;
-  color: white;
   height: 61px;
   padding: 16px;
   justify-content: center;
   align-items: center;
   gap: 8px;
   border-radius: 19px;
+}
+
+.card-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .card-btn i {
@@ -367,6 +371,11 @@ form .btn p {
   padding: 20px;
   width: 100%;
   border-radius: 16px;
+}
+
+.login button a {
+  text-decoration: none;
+  color: white;
 }
 
 

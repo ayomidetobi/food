@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { Link } from "react-router-dom";
 
 import logo from './assets/image/Kedak-Tech-Logo.png'
 import lady from './assets/image/lady.png'
@@ -16,7 +17,9 @@ function App() {
       <div className='head'>
         <img src={logo} alt="" />
 
-        <button className='card-btn'><i className="bi bi-credit-card"></i> Get Your Card</button>
+        <button className='card-btn'>
+          <Link to={"/login"}><i className="bi bi-credit-card"></i> Get Your Card</Link>
+        </button>
       </div>
       {/* End of Header */}
 
