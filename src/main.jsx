@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 import Footer from './components/Footer.jsx'
-import Profile from './profile.jsx'
+import Profile from './Profile.jsx'
 import Scan from './Scan-history.jsx'
 import Login from './Login.jsx'
 import Signup from './Signup.jsx'
