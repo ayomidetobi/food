@@ -24,7 +24,7 @@ function tag() {
 
         <div class="mb-3">
           <label class="form-label">Full Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Type name here..." />
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Type name here..." />
         </div>
 
         <div class="mb-3">
