@@ -1,0 +1,484 @@
+#root {
+  margin: 0 auto;
+  padding: 5% 5% 0 5%;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  max-width: 1440px;
+}
+
+
+/* Header */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head img {
+  height: 34px;
+}
+
+.card-btn {
+  background-color: #0A063F;
+  color: white;
+  height: 61px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 19px;
+}
+
+.card-btn i {
+  margin-right: 8px;
+}
+
+
+/* Home Card */
+
+.home-card {
+  background-image: url(./assets/image/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  color: white;
+  padding: 5%;
+  width: 100%;
+  border-radius: 32px;
+}
+
+.home-card .lady {
+  height: 82px;
+}
+
+.home-card .details {
+  text-align: left;
+}
+
+.home-card .details p {
+  font-size: 80%;
+}
+
+.flag {
+  width: 16px;
+}
+
+.about {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.about p {
+  font-size: 14px;
+  color: #8D8D8D;
+}
+
+.add-btn {
+  background-color: #FD533A;
+  color: #ececec;
+  border: none;
+  border-radius: 16px;
+  width: 100%;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+
+
+/* Contact */
+
+.contact {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contact h6 {
+  font-size: 18px;
+  color: #292929;
+  font-weight: 700;
+}
+
+.contact p {
+  color: #181D26;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact small {
+  margin-bottom: 0;
+  color: #8D8D8D;
+  font-size: 12px;
+}
+
+.contact .phone {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.contact .phone .i1 {
+  background-color: #EAFFF2;
+  color: #45AF12;
+  padding: 8px;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact .mail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.contact .mail .i1 {
+  background-color: #FCFFEA;
+  color: #7C8E0A;
+  padding: 8px;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.contact .twitter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.contact .twitter .i1 {
+  background-color: #EAEEFF;
+  color: #1D9BF0;
+  padding: 8px;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.contact .insta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.contact .insta .i1 {
+  background-color: #FFEAEF;
+  color: #FF006B;
+  padding: 8px;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact .linkedin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.contact .linkedin .i1 {
+  background-color: #EAF5FF;
+  color: #0B29C7;
+  padding: 8px;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+/* Profile Me */
+
+.profile {
+  text-align: left;
+}
+
+.profile .back {
+  color: #8D8D8D;
+}
+
+.profile .card {
+  margin-top: 48px;
+  align-items: center;
+  background-image: url(./assets/image/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  color: white;
+  padding: 10%;
+  border-radius: 32px;
+}
+
+.profile .card img {
+  width: 82px;
+}
+
+.profile .card .flag {
+  width: 16px;
+}
+
+.profile .card p {
+  color: #8D8D8D;
+}
+
+.profile .card button {
+  background: none;
+  color: white;
+  border: 1px solid #2E2E2E;
+  padding: 16px;
+  width: 90%;
+  border-radius: 16px
+}
+
+
+/* Profile About */
+
+.profile .about h6 {
+  font-weight: 700;
+}
+
+.profile .about i {
+  color: #A7A9AF;
+}
+
+.profile .about p {
+  margin-top: 10px;
+  color: #8D8D8D;
+}
+
+.profile .contact button{
+  background: none;
+  border: 1px solid #ECECEC;
+  border-radius: 16px;
+  width: 100%;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.profile .contact button i {
+  background: -webkit-linear-gradient(#FC4981, #FF5C00, #A73DE0);
+  
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Scan History */
+
+.scan {
+  text-align: left;
+}
+
+.scan a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+/* Login & Signup */
+
+.login .top {
+  background-image: url(./assets/image/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 -5% 0 -5%;
+  border-radius: 0 0 40px 40px;
+  color: white;
+  padding: 5px;
+  top: 0;
+  align-items: center;
+}
+
+.login .top p {
+  color: #8D8D8D;
+}
+
+.login .top h1 {
+  font-size: 48px;
+}
+
+.login .top button {
+  border: 1px solid #2E2E2E;
+  background: none;
+  color: #8D8D8D;
+  padding: 16px;
+  border-radius: 16px;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.login .top a {
+  color: #FFEAEF;
+  text-decoration: none;
+}
+
+
+form {
+  text-align: left;
+  margin-top: 50px;
+}
+
+form label {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+
+form .btn {
+  display: block;
+  margin-top: 50px;
+}
+
+form .btn p {
+  color: #222737;
+  font-size: 13px;
+}
+
+.login button {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+
+/* Edit */
+
+.edit {
+  text-align: left;
+  margin: 5% -5% 0 -5%;
+  background-color: #fff;
+  padding: 0 16px;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -2px #8D8D8D ;
+
+}
+
+.edit p, i, label{
+  font-weight: bold;
+}
+
+.edit button {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.nav {
+  background-color: black;
+  height: 100px;
+  position: sticky;
+  bottom: 0;
+  margin: 5% -5% 0 -5%;
+  border-radius: 24px 24px 0 0;
+  padding: 16px 8px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav i {
+  color: blue;
+  font-size: 24px;
+  background: -webkit-linear-gradient(#FC4981, #FF5C00, #A73DE0);
+  
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav p {
+  font-size: 12px;
+  color: #8D8D8D;
+  font-weight: 500;
+}
+
+.vl {
+  border-left: 1px solid #8D8D8D;
+  height: 25px;
+}
+
+
+/* Card Tag */
+.card-tag {
+  display: flex;
+  text-align: left;
+  background-color: #131313;
+  padding: 16px 24px;
+  border-radius: 16px;
+  justify-content: space-between;
+  margin: 10px 10px
+}
+
+.card-tag .icon {
+  width: 40px;
+}
+
+.card-tag h6 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.card-tag p {
+  font-size: 9px;
+  color: #626262;
+  margin: 0
+}
+
+.card-tag small {
+  color: #626262;
+  font-size: 9px;
+  margin: 0;
+}
+
+.card-tag .safari {
+  float: right;
+  text-align: center;
+}
+
+.card-tag .safari img {
+  width: 24px;
+  margin: 0;
+}
