@@ -1,23 +1,23 @@
-import { useState } from 'react'
+
 import './App.css'
 import { Link } from "react-router-dom";
 
-import logo from './assets/image/Kedak-Tech-Logo.png'
-import lady from './assets/image/lady.png'
-import flag from './assets/image/nigeria.svg'
+
+import profile from './assets/image/def23.jpg'
+
 
 import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       {/* Header */}
-      <div className='head'>
-        <img src={logo} alt="" />
+      <div className='head mt-4'>
+        <p className='text-secondary fw-normal'>Kedak's profile</p>
 
-        <button className='card-btn'>
+        <button className='card-btn 'style={{fontSize:'12px'}}>
           <Link to={"/login"}><i className="bi bi-credit-card"></i> Get Your Card</Link>
         </button>
       </div>
@@ -25,18 +25,26 @@ function App() {
 
 
       {/* Name */}
-      <div className='home-card'>
-        <img src={lady} alt="" className='lady' />
-
-        <div className='details'>
-          <p><img src={ flag } className='flag' /> Nigeria</p>
-          <h5>Abisola Ifewamiri</h5>
-
-          <div className='d-flex'>
-            <p className='pe-3'><i className="bi bi-person"></i> Digital Artist</p>
-            <p><i className="bi bi-telephone"></i> +2347035897731</p>
+      <div className='home-card py-5'>
+        
+        <div className="row w-100">
+          <div className="col-4">
+            <img src={profile} alt="" className='lady' />
           </div>
+          <div className="col-8">
+          <div className='details align-middle'>
+            
+            <h5>Abisola Ifewamiri</h5>
+
+            <div className='d-flex  fs-5'>
+              <p className='pe-3 text-secondary'><i className="bi bi-person"></i> username</p>
+              <p className='text-secondary'><i className="bi bi-person-gear"></i> occupation</p>
+            </div>
+            </div>
+          </div>
+          
         </div>
+        
       </div>
       {/* End of Name */}
 
@@ -44,11 +52,11 @@ function App() {
       <div className='about'>
         <h5>About</h5>
 
-        <p>Creating beautiful digital art designs to solve problems for brands willing to increase publicity</p>
+        <p className='text-secondary-emphasis fw-normal'>Creating beautiful digital art designs to solve problems for brands willing to increase publicity</p>
       </div>
 
 
-      <button className='add-btn'><i class="bi bi-plus-lg me-3"></i> Add Abisola to Contact</button>
+      <button className='add-btn'><i className="bi bi-plus-lg me-3"></i> Add Abisola to Contact</button>
 
 
 
@@ -83,7 +91,7 @@ function App() {
             </div>
           </div>
 
-          <i class="bi bi-box-arrow-up-right"></i>
+          <i className="bi bi-box-arrow-up-right"></i>
         </div>
         {/* end of mail */}
 
@@ -144,4 +152,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

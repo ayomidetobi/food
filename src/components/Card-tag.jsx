@@ -3,7 +3,7 @@ import React from "react"
 import icon from '../assets/image/Icon.png'
 import safari from '../assets/image/safari.png'
 
-function name() {
+function tag() {
   return (
       <div className="card-tag">
           <div className="d-flex align-items-center">
@@ -21,6 +21,6 @@ function name() {
           </div>
       </div>
   )
-};
+}
 
-export default name;
+export default tag;

@@ -13,7 +13,7 @@ import flag from './assets/image/nigeria.svg'
 function name() {
   return (
     <div className="scan">
-      <Link to={'/'}><i class="bi bi-chevron-left me-3"></i>Last contact card scans</Link>
+      <Link to={'/'}><i className="bi bi-chevron-left me-3"></i>Last contact card scans</Link>
       
       <div className='home-card'>
         <img src={lady} alt="" />

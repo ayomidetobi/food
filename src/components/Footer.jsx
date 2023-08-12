@@ -1,12 +1,12 @@
-import React from "react"
+
 import { Link } from "react-router-dom";
 
 function name() {
     return (
-        <div className='nav'>
+        <div className='nav mx-auto'>
             <Link to={'profile'}>
             <div className="text-center">
-                <i class="bi bi-person"></i>
+                <i className="bi bi-person"></i>
                 <p>Me</p>
             </div>
             </Link>
@@ -15,12 +15,12 @@ function name() {
 
             <Link to={'scan-history'}>
             <div  className="text-center">
-                <i class="bi bi-people"></i>
-                <p>Scan History</p>
+                <i className="bi bi-people"></i>
+                <p>Search Profile</p>
             </div>
             </Link>
         </div>
     )
-};
+}
 
 export default name;

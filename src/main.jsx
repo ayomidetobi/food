@@ -9,8 +9,14 @@ import Scan from './Scan-history.jsx'
 import Login from './Login.jsx'
 import Signup from './Signup.jsx'
 import Edit from './components/Edit.jsx'
-
+import { AuthProvider } from './contexts/AuthContext.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import ActivationSuccess from './ActivationSuccess.jsx'
+import Userprofile from './Userprofile.jsx'
+import RegSuccess from './RegSucess.jsx'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const router = createBrowserRouter([
   {
@@ -22,7 +28,7 @@ const router = createBrowserRouter([
     element: <Footer />
   },
   {
-    path: "/profile",
+    path: "/profile/:userId/update",
     element: <Profile />
   },
   {
@@ -41,10 +47,36 @@ const router = createBrowserRouter([
     path: "/edit",
     element: <Edit />
   },
+  {
+    path: "/activate/:uid/:token",
+    element: <ActivationSuccess />
+  },
+  {
+    path: "/profile/:userId",
+    element: <Userprofile />
+  },
+  {
+    path: "registration/confirm-email",
+    element: <RegSuccess />
+  },
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+     <AuthProvider>
+        <RouterProvider router={router} />
+        <ToastContainer position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+          />
+    </AuthProvider>
   </React.StrictMode>,
 )
